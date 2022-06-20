@@ -1,13 +1,19 @@
 <template>
   <div>
-  <title-projecto>
-  </title-projecto>
+    <titleProject>
+    </titleProject>
+    <HeroJumbotrone>
+    </HeroJumbotrone>
   </div>
 </template>
 
 <script>
 import titleProject from "./components/titleProject.vue";
-export default{components:{titleProject}}
+import HeroJumbotrone from "./components/HeroJumbotrone.vue"
+export default{
+  components:{ titleProject, HeroJumbotrone }
+  };
+
 </script>
 
 
