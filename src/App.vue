@@ -1,12 +1,13 @@
 <template>
   <div>
-    <title></title>
+  <title-projecto>
+  </title-projecto>
   </div>
 </template>
 
 <script>
-import title from "@/components/titleProject.vue";
-
+import titleProject from "./components/titleProject.vue";
+export default{components:{titleProject}}
 </script>
 
 
